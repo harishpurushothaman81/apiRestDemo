@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.826674">
+    <testcase classname="Check Inactive Campaign List API" name="Verify Inactive Campaign List" time="6.291904">
+        <system-out><![CDATA[Given the API endpoint authentication token.................................passed
+When I send a GET request to the API endpoint...............................passed
+Then the response status code should be 200.................................passed
+And the response body should contain a list of inactive campaigns...........passed
+And inactive campaigns starting date is 2015................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Authentication" name="User gets an authentication token" time="0.53477">
+        <system-out><![CDATA[Given the user has valid credentials........................................passed
+When the user requests an authentication token..............................passed
+Then a valid token is returned..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

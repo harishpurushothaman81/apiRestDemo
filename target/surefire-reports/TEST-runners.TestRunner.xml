@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="2.39" tests="7" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\IdeaProjects\apirest\unzerArt\target\test-classes;C:\Users\HP\IdeaProjects\apirest\unzerArt\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\HP\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\HP\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\HP\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\HP\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\HP\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\HP\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\HP\Downloads\openjdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire8843617095441339450\surefirebooter-20230313132624566_3.jar C:\Users\HP\AppData\Local\Temp\surefire8843617095441339450 2023-03-13T13-26-24_343-jvmRun1 surefire-20230313132624566_1tmp surefire_0-20230313132624566_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\IdeaProjects\apirest\unzerArt\target\test-classes;C:\Users\HP\IdeaProjects\apirest\unzerArt\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\HP\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HP\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\HP\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\HP\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\HP\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\HP\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\HP\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\HP\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\HP\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="C:\Users\HP\Downloads\openjdk-11.0.1_windows-x64_bin\jdk-11.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\IdeaProjects\apirest\unzerArt"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire8843617095441339450\surefirebooter-20230313132624566_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="C:\Users\HP\IdeaProjects\apirest\unzerArt"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\HP\Downloads\openjdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/HP/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136/jre/bin/server;C:/Users/HP/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136/jre/bin;C:\Python311\Scripts\;C:\Python311\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\HP\Downloads\openjdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\HP\Downloads\apache-maven-3.9.0-bin\apache-maven-3.9.0\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\Downloads\openjdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\bin;;;C:\Users\HP\OneDrive\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="User Should Login With Valid Credentials" classname="Login Functionality" time="1.397">
+    <system-out><![CDATA[Feature: Login Functionality
+
+  @validLogin
+  Scenario: User Should Login With Valid Credentials # src/test/resources/functionalTests/End2End_Test.feature:3
+    Given Post Login API                             # Steps.post_login_api()
+    When Provide Valid Credential                    # Steps.provide_valid_credential()
+    Then Status_code equals 200                      # Steps.statuscode_equals_(int)
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new user" classname="Login Functionality" time="0.203">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at stepDefinitions.Steps.i_send_a_post_request_email_id_passowrd_username(Steps.java:99)
+	at ✽.I send a POST request email, id, password, Username(file:src/test/resources/functionalTests/End2End_Test.feature:9)
+]]></error>
+    <system-out><![CDATA[
+  Scenario: Create a new user                                    # src/test/resources/functionalTests/End2End_Test.feature:7
+    Given I have a valid data for user creation                  # Steps.i_have_a_valid_data_for_user_creation()
+    When I send a POST request email, id, password, Username     # Steps.i_send_a_post_request_email_id_passowrd_username()
+      java.lang.NullPointerException
+	at stepDefinitions.Steps.i_send_a_post_request_email_id_passowrd_username(Steps.java:99)
+	at ?.I send a POST request email, id, password, Username(file:src/test/resources/functionalTests/End2End_Test.feature:9)
+
+    Then the response status code should be 200 for created user # Steps.the_response_status_code_should_be_(int)
+    And the response should contain the username                 # Steps.the_response_should_contain_the_username()
+    And the response should contain the email                    # Steps.the_response_should_contain_the_email()
+]]></system-out>
+  </testcase>
+  <testcase name="Update user information" classname="Login Functionality" time="0.006">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at stepDefinitions.Steps.i_update_last_created_user_emailid_to_new_emailid(Steps.java:126)
+	at ✽.I update last created user emailid to new emailid(file:src/test/resources/functionalTests/End2End_Test.feature:15)
+]]></error>
+    <system-out><![CDATA[
+  Scenario: Update user information                             # src/test/resources/functionalTests/End2End_Test.feature:13
+newnull
+    Given I have to select last created user for update emailid # Steps.i_have_to_select_last_created_user_for_update_emailid()
+    When I update last created user emailid to new emailid      # Steps.i_update_last_created_user_emailid_to_new_emailid()
+      java.lang.NullPointerException
+	at stepDefinitions.Steps.i_update_last_created_user_emailid_to_new_emailid(Steps.java:126)
+	at ?.I update last created user emailid to new emailid(file:src/test/resources/functionalTests/End2End_Test.feature:15)
+
+    Then I have to verity the emailid is updated correctily     # Steps.i_have_to_verity_the_emailid_is_updated_correctily()
+]]></system-out>
+  </testcase>
+  <testcase name="Delete user" classname="Login Functionality" time="0.004">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at stepDefinitions.Steps.i_have_to_delete_last_created_user(Steps.java:143)
+	at ✽.I have to delete last created user(file:src/test/resources/functionalTests/End2End_Test.feature:18)
+]]></error>
+    <system-out><![CDATA[
+  Scenario: Delete user                              # src/test/resources/functionalTests/End2End_Test.feature:17
+    Given I have to delete last created user         # Steps.i_have_to_delete_last_created_user()
+      java.lang.NullPointerException
+	at stepDefinitions.Steps.i_have_to_delete_last_created_user(Steps.java:143)
+	at ?.I have to delete last created user(file:src/test/resources/functionalTests/End2End_Test.feature:18)
+
+    When I delete last created account               # Steps.i_delete_last_created_account()
+    Then last created user account should be deleted # Steps.last_created_user_account_should_be_deleted()
+]]></system-out>
+  </testcase>
+  <testcase name="Invalid Login validation API checks" classname="Login Functionality" time="0.144">
+    <system-out><![CDATA[
+  Scenario Outline: Invalid Login validation API checks # src/test/resources/functionalTests/End2End_Test.feature:21
+    Given Post Login API
+    When Provide different combinations to "<email>" and "<password>"
+    Then response contains message equals "<message>"
+
+    Examples: 
+
+  Scenario Outline: Invalid Login validation API checks                        # src/test/resources/functionalTests/End2End_Test.feature:27
+    Given Post Login API                                                       # Steps.post_login_api()
+    When Provide different combinations to "" and ""                           # Steps.provide_different_combinations_to_something(String,String)
+    Then response contains message equals "HTTP/1.1 500 Internal Server Error" # Steps.response_contains_equals(String)
+]]></system-out>
+  </testcase>
+  <testcase name="Invalid Login validation API checks" classname="Login Functionality" time="0.125">
+    <system-out><![CDATA[
+  Scenario Outline: Invalid Login validation API checks                        # src/test/resources/functionalTests/End2End_Test.feature:28
+    Given Post Login API                                                       # Steps.post_login_api()
+    When Provide different combinations to "abc" and ""                        # Steps.provide_different_combinations_to_something(String,String)
+    Then response contains message equals "HTTP/1.1 500 Internal Server Error" # Steps.response_contains_equals(String)
+]]></system-out>
+  </testcase>
+  <testcase name="Invalid Login validation API checks" classname="Login Functionality" time="0.136">
+    <system-out><![CDATA[
+  Scenario Outline: Invalid Login validation API checks                        # src/test/resources/functionalTests/End2End_Test.feature:29
+    Given Post Login API                                                       # Steps.post_login_api()
+    When Provide different combinations to "abc@mail7.io" and "Pass"           # Steps.provide_different_combinations_to_something(String,String)
+    Then response contains message equals "HTTP/1.1 500 Internal Server Error" # Steps.response_contains_equals(String)
+]]></system-out>
+  </testcase>
+</testsuite>

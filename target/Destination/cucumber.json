@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-17T16:53:08.893Z",
+        "before": [
+          {
+            "result": {
+              "duration": 610394700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InactiveCampaignListSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Inactive Campaign List",
+        "description": "",
+        "id": "check-inactive-campaign-list-api;verify-inactive-campaign-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3938989000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the API endpoint authentication token",
+            "match": {
+              "location": "InactiveCampaignListSteps.theAPIEndpointIs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1168117600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send a GET request to the API endpoint",
+            "match": {
+              "location": "InactiveCampaignListSteps.iSendAGETRequestToTheAPIEndpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35437500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the response status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "InactiveCampaignListSteps.theResponseStatusCodeShouldBe(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 320780900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the response body should contain a list of inactive campaigns",
+            "match": {
+              "location": "InactiveCampaignListSteps.theResponseBodyShouldContainAListOfInactiveCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131260900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "inactive campaigns starting date is 2015",
+            "match": {
+              "location": "InactiveCampaignListSteps.theResponseBodyShouldContainCampaignsStartDateis2022()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mytag"
+          }
+        ]
+      }
+    ],
+    "name": "Check Inactive Campaign List API",
+    "description": "",
+    "id": "check-inactive-campaign-list-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/functionalTests/Platform161InactiveCampain_Test.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-17T16:53:15.190Z",
+        "before": [
+          {
+            "result": {
+              "duration": 575000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InactiveCampaignListSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User gets an authentication token",
+        "description": "",
+        "id": "authentication;user-gets-an-authentication-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1351100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user has valid credentials",
+            "match": {
+              "location": "AuthenticationSteps.setValidCredentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 524032900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user requests an authentication token",
+            "match": {
+              "location": "AuthenticationSteps.requestAuthToken()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 820000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a valid token is returned",
+            "match": {
+              "location": "AuthenticationSteps.verifyAuthToken()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mytag"
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/functionalTests/Platform161_Test.feature",
+    "tags": []
+  }
+]

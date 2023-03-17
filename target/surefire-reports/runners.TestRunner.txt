@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.39 s <<< FAILURE! - in runners.TestRunner
+Login Functionality.Create a new user  Time elapsed: 0.203 s  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.Steps.i_send_a_post_request_email_id_passowrd_username(Steps.java:99)
+	at ✽.I send a POST request email, id, password, Username(file:src/test/resources/functionalTests/End2End_Test.feature:9)
+
+Login Functionality.Update user information  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.Steps.i_update_last_created_user_emailid_to_new_emailid(Steps.java:126)
+	at ✽.I update last created user emailid to new emailid(file:src/test/resources/functionalTests/End2End_Test.feature:15)
+
+Login Functionality.Delete user  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.Steps.i_have_to_delete_last_created_user(Steps.java:143)
+	at ✽.I have to delete last created user(file:src/test/resources/functionalTests/End2End_Test.feature:18)
+
